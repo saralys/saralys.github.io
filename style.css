@@ -90,7 +90,7 @@ nav li{
   position: static;
 }
 nav a{
-  color: rgb (255,192,203);
+  color: rgb(80,80,80);
   text-decoration: underline;
   text-overflow: ellipsis;
   font-size: 15px;

@@ -19,10 +19,6 @@ a:link {
   color: grey;
 }
 
-a:visited {
-  color: white;
-}
-
 a:hover {
   color: black;
 }
@@ -68,7 +64,7 @@ h3{
   text-align: left;
   z-index: 1;
   margin: auto;
-  width: calc (100% - 60px)
+  width: calc (100% - 60px);
   margin: 0;
   padding: 0;
 }
@@ -90,7 +86,6 @@ nav li{
   position: static;
 }
 nav a{
-  color: rgb(80,80,80);
   text-decoration: underline;
   text-overflow: ellipsis;
   font-size: 15px;

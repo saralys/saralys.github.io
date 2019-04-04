@@ -15,12 +15,12 @@ body{
   font-family: "Handlee", sans-serif;
   font-size: 15px;
 }
-a {
-  color: black;
+a:link {
+  color: grey;
 }
 
 a:visited {
-  color: black;
+  color: white;
 }
 
 a:hover {

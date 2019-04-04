@@ -1,0 +1,102 @@
+
+html{
+  background: url(images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Handlee|PT+Sans:400,700');
+
+
+
+body{
+  font-family: "Handlee", sans-serif;
+  font-size: 15px;
+}
+a {
+  color: pink;
+}
+
+a:visited {
+  color: rgb(88,40,130);
+}
+
+a:hover {
+  color: black;
+}
+
+h1{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(255,192,203);
+  font-size: 50px;
+}
+
+h2{
+  font-weight: 400;
+  font-style: oblique;
+  font-size: 28px;
+  color: rgb(255,105,180);
+}
+h3{
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(255,182,193);
+}
+
+.content{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding:40px;
+  margin:|auto;
+  align: center;
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.resumefoto{
+  height: 200px;
+  border-radius: 50%;
+}
+.topnav{
+  position: relative;
+  padding: 10px;
+  text-align: left;
+  z-index: 1;
+  margin: auto;
+  width: calc (100% - 60px)
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  float: right;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li{
+  display: inline-table;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  position: static;
+}
+nav a{
+  color: rgb (255,192,203);
+  text-decoration: underline;
+  text-overflow: ellipsis;
+  font-size: 15px;
+}
+
+.container {
+  grid-template-columns: 40px 50px auto 50px 40px;
+  grid-template-rows: 25% 100px auto;
+}
